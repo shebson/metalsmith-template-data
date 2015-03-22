@@ -11,7 +11,12 @@ module.exports = function () {
                 try {
                     templateData = require(path.join(process.cwd(), files[file].dataFile));
                 } catch (e) {
-                    throw ('Could not require data file ' + files[file].dataFile + ' for page ' + file);
+                    switch (e.code) {
+                    case "MODULE_NOT_FOUND":
+                        throw ('Could not find data file ' + files[file].dataFile + '. Check file path ' + file);
+                    default:
+                        throw e;
+                    }
                 }
                 _.extend(files[file], templateData);
             }
