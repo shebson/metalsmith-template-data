@@ -1,7 +1,7 @@
 {
   "name": "metalsmith-template-data",
   "version": "0.0.1",
-  "description": "A Metalsmith plugin for providing javascript template data",
+  "description": "A Metalsmith plugin that imports template data from Javascript files",
   "main": "index.js",
   "scripts": {
     "pretest": "grunt jslint",
