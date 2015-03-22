@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "pretest": "grunt jslint",
-    "test": "mocha ./test/*"
+    "test": "mocha ./test/*",
+    "coverage": "istanbul cover _mocha -- -R spec ./test --recursive",
+    "coveralls": "npm run-script coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -23,7 +25,9 @@
     "mocha": "~2.2.1",
     "grunt": "~0.4.5",
     "grunt-jslint": "~1.1.12",
-    "grunt-cli": "~0.1.13"
+    "grunt-cli": "~0.1.13",
+    "coveralls": "~2.11.2",
+    "istanbul": "~0.3.8"
   },
   "keywords": [
     "Metalsmith",

@@ -1,6 +1,7 @@
 # metalsmith-template-data
 
 [![Build Status](https://travis-ci.org/shebson/metalsmith-template-data.svg)](https://travis-ci.org/shebson/metalsmith-template-data)
+[![Coverage Status](https://coveralls.io/repos/shebson/metalsmith-template-data/badge.svg)](https://coveralls.io/r/shebson/metalsmith-template-data)
 [![Dependency Status](https://david-dm.org/shebson/metalsmith-template-data.svg)](https://david-dm.org/shebson/metalsmith-template-data)
 [![devDependency Status](https://david-dm.org/shebson/metalsmith-template-data/dev-status.svg)](https://david-dm.org/shebson/metalsmith-template-data)
 
