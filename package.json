@@ -24,6 +24,7 @@
     "should": "~5.2.0",
     "mocha": "~2.2.1",
     "grunt": "~0.4.5",
-    "grunt-jslint": "~1.1.12"
+    "grunt-jslint": "~1.1.12",
+    "grunt-cli": "~0.1.13"
   }
 }

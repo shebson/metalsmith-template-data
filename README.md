@@ -1,5 +1,9 @@
 # metalsmith-template-data
 
+[![Build Status](https://travis-ci.org/shebson/metalsmith-template-data.svg)](https://travis-ci.org/shebson/metalsmith-template-data)
+[![Dependency Status](https://david-dm.org/shebson/metalsmith-template-data.svg)](https://david-dm.org/shebson/metalsmith-template-data)
+[![devDependency Status](https://david-dm.org/shebson/metalsmith-template-data/dev-status.svg)](https://david-dm.org/shebson/metalsmith-template-data)
+
 A Metalsmith plugin to import template data from CommonJS modules. This plugin extends Metalsmith file objects with the contents of any CommonJS modules specified by the dataFile property of the file.
 
 ## Installation
