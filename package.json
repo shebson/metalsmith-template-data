@@ -7,8 +7,6 @@
     "pretest": "grunt jslint",
     "test": "mocha ./test/*"
   },
-  "author": "Stephen Hebson",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/shebson/metalsmith-template-data.git"
@@ -26,5 +24,12 @@
     "grunt": "~0.4.5",
     "grunt-jslint": "~1.1.12",
     "grunt-cli": "~0.1.13"
-  }
+  },
+  "keywords": [
+    "Metalsmith",
+    "plugin",
+    "template"
+  ],
+  "author": "Stephen Hebson",
+  "license": "MIT"
 }
